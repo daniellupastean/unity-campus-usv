@@ -1,0 +1,254 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.1f1 (3b70a0754835) revision 3895456'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Enterprise' Language: 'en' Physical Memory: 8081 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/unity-campus-usv
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+54453
+Successfully changed project path to: D:/unity-campus-usv
+D:/unity-campus-usv
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 80.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.1f1 (3b70a0754835)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity-campus-usv/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 630M (ID=0xde9)
+    Vendor:   NVIDIA
+    VRAM:     979 MB
+    Driver:   23.21.13.8912
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.020564 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 62.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.146 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1147ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (809ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (177ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (495ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (62ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (262ms)
+				ProcessInitializeOnLoadMethodAttributes (155ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002963 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.778 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8781ms)
+		BeginReloadAssembly (506ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (7824ms)
+			LoadAssemblies (4459ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1066ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (2359ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (130ms)
+				ProcessInitializeOnLoadAttributes (588ms)
+				ProcessInitializeOnLoadMethodAttributes (1606ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.28 seconds
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1952 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (77.6 KB). Loaded Objects now: 2452.
+Memory consumption went from 118.5 MB to 118.5 MB.
+Total: 7.458600 ms (FindLiveObjects: 0.293700 ms CreateObjectMapping: 0.455600 ms MarkObjects: 6.473900 ms  DeleteObjects: 0.233400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3939.759375 seconds.
+  path: Assets/Concrete textures pack/pattern 19
+  artifactKey: Guid(50d97e57d749ae549a423283cee9081b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 19 using Guid(50d97e57d749ae549a423283cee9081b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '456b461acd885bef1cbfdeb131d0dafc') in 0.022507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2318.453366 seconds.
+  path: Assets/Summer Open-Air Table And Chair v1.1/Prefabs/Summer Open-Air Chair Plastic.prefab
+  artifactKey: Guid(a99b124aefd15f64e89ef63b6b1f4827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Summer Open-Air Table And Chair v1.1/Prefabs/Summer Open-Air Chair Plastic.prefab using Guid(a99b124aefd15f64e89ef63b6b1f4827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25ef38261ce4de6eda19807edbff00b') in 0.236221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Summer Open-Air Table And Chair v1.1/Prefabs/Summer Open-Air Table Round Plastic.prefab
+  artifactKey: Guid(aae5a96c395ace447af3e34010ab47e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Summer Open-Air Table And Chair v1.1/Prefabs/Summer Open-Air Table Round Plastic.prefab using Guid(aae5a96c395ace447af3e34010ab47e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1417d23c998b518e30fea8936bf719fb') in 0.026783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4870.397149 seconds.
+  path: Assets/Free SteelLadder Pack/Prefabs/LadderCombinationSample Long.prefab
+  artifactKey: Guid(2116aafc135bfb6439d391c4fb83f4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free SteelLadder Pack/Prefabs/LadderCombinationSample Long.prefab using Guid(2116aafc135bfb6439d391c4fb83f4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb05009074b0d9f9780a57af0df1c37') in 0.106557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Free SteelLadder Pack/Prefabs/LadderCombinationSample.prefab
+  artifactKey: Guid(115574f175eb5514f9c26670e37c23f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free SteelLadder Pack/Prefabs/LadderCombinationSample.prefab using Guid(115574f175eb5514f9c26670e37c23f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b225db9086d98a01f6be3a81243672c') in 0.030504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 60.259656 seconds.
+  path: Assets/Free SteelLadder Pack/Prefabs/LowPoly
+  artifactKey: Guid(9edd5da1b7c7b4e4c9946401ceba1e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free SteelLadder Pack/Prefabs/LowPoly using Guid(9edd5da1b7c7b4e4c9946401ceba1e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0046823710f23c79a95ff168e9ee0220') in 0.011025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033706 seconds.
+  path: Assets/Free SteelLadder Pack/Prefabs/LowPoly/SteelLadder LP A.prefab
+  artifactKey: Guid(7cb5a1ba6215c0944919912b9dde519b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free SteelLadder Pack/Prefabs/LowPoly/SteelLadder LP A.prefab using Guid(7cb5a1ba6215c0944919912b9dde519b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf583fe854c3cde84d934d32a3b63ef') in 0.019208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Free SteelLadder Pack/Prefabs/LowPoly/SteelLadder LP D.prefab
+  artifactKey: Guid(36c7758a154b5da4e9e9226770c880ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free SteelLadder Pack/Prefabs/LowPoly/SteelLadder LP D.prefab using Guid(36c7758a154b5da4e9e9226770c880ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0731b2dd78be28d1be7e8ee57fee3f85') in 0.018426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Free SteelLadder Pack/Prefabs/LowPoly/SteelLadder LP E.prefab
+  artifactKey: Guid(d12d52f3d0a589d41997897ae1ca4ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free SteelLadder Pack/Prefabs/LowPoly/SteelLadder LP E.prefab using Guid(d12d52f3d0a589d41997897ae1ca4ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c0e185c5c917d58a71803534a2cab3') in 0.025471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Free SteelLadder Pack/Prefabs/LowPoly/SteelLadder LP B.prefab
+  artifactKey: Guid(ae9ee19c50994244fb89f14137e65f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free SteelLadder Pack/Prefabs/LowPoly/SteelLadder LP B.prefab using Guid(ae9ee19c50994244fb89f14137e65f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8243316b41a1ecdb60fa36951dad6c5') in 0.026002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Free SteelLadder Pack/Prefabs/LowPoly/SteelLadder LP C.prefab
+  artifactKey: Guid(37b4ad48726044941a87b543a00d976c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free SteelLadder Pack/Prefabs/LowPoly/SteelLadder LP C.prefab using Guid(37b4ad48726044941a87b543a00d976c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41981aab640f075380c8c1cfb71a7240') in 0.035431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 635.572342 seconds.
+  path: Assets/Materials/roof 1.mat
+  artifactKey: Guid(836cd6257ca5ef943920c8894d58589a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/roof 1.mat using Guid(836cd6257ca5ef943920c8894d58589a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd15e5010ebc3a023b1bc72831edcbf0') in 0.125863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 162.101150 seconds.
+  path: Assets/Materials/roof.jpg
+  artifactKey: Guid(609d441967a0cac4bb61dc7f5606c4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/roof.jpg using Guid(609d441967a0cac4bb61dc7f5606c4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0259996685e16ae78aeb08a3510df888') in 0.083688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 257.496865 seconds.
+  path: Assets/Materials/roof.jpg
+  artifactKey: Guid(609d441967a0cac4bb61dc7f5606c4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/roof.jpg using Guid(609d441967a0cac4bb61dc7f5606c4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68d74d03f369e98520ed4e46f6cf304') in 0.537298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.205171 seconds.
+  path: Assets/Materials/roof.jpg
+  artifactKey: Guid(609d441967a0cac4bb61dc7f5606c4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/roof.jpg using Guid(609d441967a0cac4bb61dc7f5606c4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b76434684ae1c5d31fa5c33e9705a5d') in 0.077121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1224.953053 seconds.
+  path: Assets/Materials/roof 1.mat
+  artifactKey: Guid(836cd6257ca5ef943920c8894d58589a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/roof 1.mat using Guid(836cd6257ca5ef943920c8894d58589a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96971bc8b8dd04c4b34eb1497d1e7891') in 0.028233 seconds 
